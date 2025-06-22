@@ -1,6 +1,7 @@
 # LeetCode-Solutions
 My LeetCode solutions<br>
-Trying to keep up with the Daily challenge!
+Trying to keep up with the Daily challenge!<br>
+https://leetcode.com/u/YuriMatyash/
 
 ## Hard
 
@@ -23,6 +24,30 @@ Trying to keep up with the Daily challenge!
 387.&nbsp;First Unique Character in a String<br>
 409.&nbsp;Longest Palindrome<br>
 3110.&nbsp;Score of a String<br>
+
+
+## Study Plans
+
+- Introduction to Pandas
+```plaintext
+2877. Create a DataFrame from List
+2878. Get the Size of a DataFrame
+2879. Display the First Three Rows
+2880. Select Data
+2881. Create a New Column
+2882. Drop Duplicate Rows
+2883. Drop Missing Data
+2884. Modify Columns
+2885. Rename Columns
+2886. Change Data Type
+2887. Fill Missing Data
+2888. Reshape Data: Concatenate
+2889. Reshape Data: Pivot
+2890. Reshape Data: Melt
+2891. Method Chaining
+```
+<br>
+
 
 ## Structure
 

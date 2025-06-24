@@ -1,16 +1,14 @@
 import pandas as pd
 
-def article_views(views: pd.DataFrame) -> pd.DataFrame:
+def find_customers(customers: pd.DataFrame, orders: pd.DataFrame) -> pd.DataFrame:
     '''
-    SELECT autor_id AS id
-    FROM views
-    WHERE autor_id = viewer_id
-    ORDER BY id ASC
+    SELECT name AS customers
+    FROM customers
+    LEFT JOIN orders 
+    ON customers.id = orders.customerId
+    WHERE orders.customerId IS NULL
     '''
-    column = ['author_id']
-    condition = views['author_id'] == views['viewer_id']
-    result = views.loc[condition, column]
-    result = result.rename(columns={'author_id':'id'})
-    result = result.drop_duplicates()
-    result = result.sort_values(by='id', ascending=True)
+    result = pd.merge(customers, orders, left_on='id', right_on='customerId', how='left')
+    result = result[result['customerId'].isna()][['name']]
+    result = result.rename(columns={'name': 'customers'})
     return result

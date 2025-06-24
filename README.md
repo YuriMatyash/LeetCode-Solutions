@@ -23,6 +23,7 @@ https://leetcode.com/u/YuriMatyash/
 344.&nbsp;Reverse String<br>
 387.&nbsp;First Unique Character in a String<br>
 409.&nbsp;Longest Palindrome<br>
+2200.&nbsp;Find All K-Distant Indices in an Array<br>
 3110.&nbsp;Score of a String<br>
 
 

@@ -49,6 +49,10 @@ https://leetcode.com/u/YuriMatyash/
 ```
 <br>
 
+- 30 Days of Pandas
+```plaintext
+595. Big Countries
+```
 
 ## Structure
 

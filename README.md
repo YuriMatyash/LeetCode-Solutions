@@ -56,6 +56,19 @@ https://leetcode.com/u/YuriMatyash/
 1148. Article Views I
 1757. Recyclable and Low Fat Products
 ```
+<br>
+
+- SQL 50
+```plaintext
+1757. Recyclable and Low Fat Products
+584. Find Customer Referee
+595. Big Countries
+1148. Article Views I
+1683. Invalid Tweets
+1378. Replace Employee ID With The Unique Identifier
+1068. Product Sales Analysis I
+```
+<br>
 
 ## Structure
 
